@@ -11,7 +11,7 @@ alert("hello " + name + "!! let's play.");
 
 var age = prompt("am I older than 25 years old?");
 
-if (age.toLowerCase === "no" || age.toLowerCase === "n") {
+if (age.toLowerCase() == "no" || age.toLowerCase() == "n") {
     // console.log("you're right, I am 24");
     alert("you're right, I am 24");
 } else {
@@ -21,7 +21,7 @@ if (age.toLowerCase === "no" || age.toLowerCase === "n") {
 }
 
 var cat = prompt("do I like cats?");
-if (cat.toLowerCase === "yes" || cat.toLowerCase === "y") {
+if (cat.toLowerCase() === "yes" || cat.toLowerCase() === "y") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -31,7 +31,7 @@ if (cat.toLowerCase === "yes" || cat.toLowerCase === "y") {
 }
 
 var coffee = prompt("do I drink coffee");
-if (coffee.toLowerCase === "no" || coffee.toLowerCase === "n") {
+if (coffee.toLowerCase() === "no" || coffee.toLowerCase() === "n") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -41,7 +41,7 @@ if (coffee.toLowerCase === "no" || coffee.toLowerCase === "n") {
 }
 
 var climb = prompt("have I ever climbed a tree?");
-if (climb.toLowerCase === "no" || climb.toLowerCase === "n") {
+if (climb.toLowerCase() === "no" || climb.toLowerCase() === "n") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -51,7 +51,7 @@ if (climb.toLowerCase === "no" || climb.toLowerCase === "n") {
 }
 
 var height = prompt("Am I shorter than 163cm?");
-if (height.toLowerCase === "yes" || height.toLowerCase === "y") {
+if (height.toLowerCase() === "yes" || height.toLowerCase() === "y") {
     // console.log("correct, i am 160 cm tall");
     alert("correct, i am 160 cm tall");
 } else {
