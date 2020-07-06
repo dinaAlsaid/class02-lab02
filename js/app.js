@@ -4,14 +4,14 @@
 
 alert("this is a guessing game, you have to guess things about ME, dina");
 
-var name=prompt("what is your name?");
+var name = prompt("what is your name?");
 
 // console.log("hello "+name+" !! let's play.");
-alert("hello "+ name +"!! let's play.");
+alert("hello " + name + "!! let's play.");
 
-var age=prompt("am I older than 25 years old?");
+var age = prompt("am I older than 25 years old?");
 
-if (age.toLowerCase === "no" || age.toLowerCase === "n"){
+if (age.toLowerCase === "no" || age.toLowerCase === "n") {
     // console.log("you're right, I am 24");
     alert("you're right, I am 24");
 } else {
@@ -20,8 +20,8 @@ if (age.toLowerCase === "no" || age.toLowerCase === "n"){
 
 }
 
-var cat=prompt("do I like cats?");
-if (cat.toLowerCase === "yes" || cat.toLowerCase === "y"){
+var cat = prompt("do I like cats?");
+if (cat.toLowerCase === "yes" || cat.toLowerCase === "y") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -30,8 +30,8 @@ if (cat.toLowerCase === "yes" || cat.toLowerCase === "y"){
 
 }
 
-var coffee=prompt("do I drink coffee");
-if (coffee.toLowerCase === "no" || coffee.toLowerCase === "n"){
+var coffee = prompt("do I drink coffee");
+if (coffee.toLowerCase === "no" || coffee.toLowerCase === "n") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -40,8 +40,8 @@ if (coffee.toLowerCase === "no" || coffee.toLowerCase === "n"){
 
 }
 
-var climb=prompt("have I ever climbed a tree?");
-if (climb.toLowerCase === "no" || climb.toLowerCase === "n"){
+var climb = prompt("have I ever climbed a tree?");
+if (climb.toLowerCase === "no" || climb.toLowerCase === "n") {
     // console.log("correct");
     alert("correct");
 } else {
@@ -50,8 +50,8 @@ if (climb.toLowerCase === "no" || climb.toLowerCase === "n"){
 
 }
 
-var height=prompt("Am I shorter than 163cm?");
-if (height.toLowerCase === "yes" || height.toLowerCase === "y"){
+var height = prompt("Am I shorter than 163cm?");
+if (height.toLowerCase === "yes" || height.toLowerCase === "y") {
     // console.log("correct, i am 160 cm tall");
     alert("correct, i am 160 cm tall");
 } else {
@@ -60,4 +60,4 @@ if (height.toLowerCase === "yes" || height.toLowerCase === "y"){
 
 }
 
-document.write("<p id=\"fromScript\">It was nice playing with you "+name+"!! </p>")
+document.write("<p id=\"fromScript\">It was nice playing with you " + name + "!! </p>")
