@@ -60,4 +60,4 @@ if (height.toLowerCase() === "yes" || height.toLowerCase() === "y") {
 
 }
 
-document.write("<p id=\"fromScript\">It was nice playing with you " + name + "!! </p>")
+document.write("<p >It was nice playing with you <b id=\"fromScript\">" + name + "</b>!! </p>")
