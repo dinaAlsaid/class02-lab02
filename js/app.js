@@ -93,16 +93,21 @@ for (var c = 1; c <= 3; c++) {
 
         howManyCats = prompt("too low, try again");
 
-    } else if (howManyCats == 6) {
-        correctAnswers++;
-        console.log("you're correct");
-        alert("you're correct");
+    } else if (howManyCats == 6) { 
+        //compares a string with a number 
+
+
         break;
     }
 }
 if (howManyCats != 6) {
     console.log("you're out of guesses, the correct answer is 6");
     alert("you're out of guesses, the correct answer is 6");
+} else {
+    correctAnswers++;
+
+    console.log("you're correct");
+    alert("you're correct");
 }
 
 
@@ -128,11 +133,11 @@ for (var i = 5; i >= 0; i--) { //for number of guesses
         alert("correct");
         break;
     } else {
-        if(i === 0){
+        if (i === 0) {
             console.log("you have no guesses left. the things in my car are: " + things);
             alert("you have no guesses left. the things in my car are: " + things);
-    
-        }else {
+
+        } else {
             console.log("try again, you have " + i + " guesses left.");
             alert("try again, you have " + i + " guesses left.");
         }
