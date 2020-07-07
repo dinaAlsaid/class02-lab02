@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 alert("this is a guessing game, you have to guess things about ME, dina");
 
 var name = prompt("what is your name?");
