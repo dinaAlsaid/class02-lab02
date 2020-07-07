@@ -87,11 +87,9 @@ console.log("How mant cats I had in my life? you have 4 guesses");
 for (var c = 1; c <= 3; c++) {
     if (howManyCats > 6) {
         console.log("too high");
-        alert("too high");
         howManyCats = prompt("too high,try again");
     } else if (howManyCats < 6) {
         console.log("too low");
-        alert("too low");
 
         howManyCats = prompt("too low, try again");
 
@@ -120,7 +118,7 @@ for (var i = 5; i >= 0; i--) { //for number of guesses
 
     for (var index = 0; index < things.length; index++) {
         //to go through the list
-        if (guessThings == things[index] || guessThings == things[index] + "s") {
+        if (guessThings === things[index] || guessThings === things[index] + "s") {
             flag = true;
         }
     }
@@ -130,17 +128,18 @@ for (var i = 5; i >= 0; i--) { //for number of guesses
         alert("correct");
         break;
     } else {
-        console.log("try again, you have " + i + " guesses left.");
-        alert("try again, you have " + i + " guesses left.");
+        if(i === 0){
+            console.log("you have no guesses left. the things in my car are: " + things);
+            alert("you have no guesses left. the things in my car are: " + things);
+    
+        }else {
+            console.log("try again, you have " + i + " guesses left.");
+            alert("try again, you have " + i + " guesses left.");
+        }
     }
 
 }
 
-if (i < 0) {
-    console.log("the things in my car are: " + things);
-    alert("the things in my car are: " + things);
-
-}
 
 
 document.write("<h3 class=\"doc-write parheading\">Important things in my car these days:</h3> <ul class=\"doc-write\">");
