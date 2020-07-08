@@ -11,76 +11,95 @@ alert("hello " + name + "!! let's play.");
 
 
 ////-----question 1-----////
-var age = prompt("am I older than 25 years old?");
-console.log("am I older than 25 years old?");
+function firstFifthQuestions(message) {
+    var answer = prompt(message);
+    if (answer === "yes") {
+        alert('you are wrong');
+    }
+    else {
+        alert('you are right');
+        correctAnswers++;
 
-if (age.toLowerCase() == "no" || age.toLowerCase() == "n") {
-    correctAnswers++;
-    console.log("you're right, I am 24");
-    alert("you're right, I am 24");
-} else {
-    console.log("Nope, I am 24");
-    alert("Nope, I am 24");
-
+    }
 }
+firstFifthQuestions("Am I younger than 25?");
+firstFifthQuestions("Do I like cats?");
+firstFifthQuestions("Do I drink coffee?");
+firstFifthQuestions('Have I ever climbed a tree?');
+firstFifthQuestions('Am I shorter that 163 cm ?');
+// var age = prompt("am I older than 25 years old?");
+// console.log("am I older than 25 years old?");
 
-////-----question 2-----////
-var cat = prompt("do I like cats?");
-console.log("do I like cats?");
+// if (age.toLowerCase() == "no" || age.toLowerCase() == "n") {
+//     correctAnswers++;
+//     console.log("you're right, I am 24");
+//     alert("you're right, I am 24");
+// } else {
+//     console.log("Nope, I am 24");
+//     alert("Nope, I am 24");
 
-if (cat.toLowerCase() === "yes" || cat.toLowerCase() === "y") {
-    correctAnswers++;
-    console.log("correct");
-    alert("correct");
-} else {
-    console.log("wrong, i do like cats");
-    alert("wrong, I LOVE cats!!");
+// }
 
-}
+// ////-----question 2-----////
+// var cat = prompt("do I like cats?");
+// console.log("do I like cats?");
 
-////-----question 3-----////
-var coffee = prompt("do I drink coffee");
-console.log("do I drink coffee");
+// if (cat.toLowerCase() === "yes" || cat.toLowerCase() === "y") {
+//     correctAnswers++;
+//     console.log("correct");
+//     alert("correct");
+// } else {
+//     console.log("wrong, i do like cats");
+//     alert("wrong, I LOVE cats!!");
 
-if (coffee.toLowerCase() === "no" || coffee.toLowerCase() === "n") {
-    correctAnswers++;
-    console.log("correct");
-    alert("correct");
-} else {
-    console.log("wrong, Coffee is a no-no to me");
-    alert("wrong, Coffee is a no-no to me");
+// }
 
-}
+// ////-----question 3-----////
+// var coffee = prompt("do I drink coffee");
+// console.log("do I drink coffee");
 
-////------question 4 -----////
-var climb = prompt("have I ever climbed a tree?");
-console.log("have I ever climbed a tree?");
+// if (coffee.toLowerCase() === "no" || coffee.toLowerCase() === "n") {
+//     correctAnswers++;
+//     console.log("correct");
+//     alert("correct");
+// } else {
+//     console.log("wrong, Coffee is a no-no to me");
+//     alert("wrong, Coffee is a no-no to me");
 
-if (climb.toLowerCase() === "no" || climb.toLowerCase() === "n") {
-    correctAnswers++;
-    console.log("correct");
-    alert("correct");
-} else {
-    console.log("wrong, i have weak arms");
-    alert("wrong, I have weak arms");
+// }
 
-}
+// ////------question 4 -----////
+// var climb = prompt("have I ever climbed a tree?");
+// console.log("have I ever climbed a tree?");
 
-////-----question 5-----////
-var height = prompt("Am I shorter than 163cm?");
-console.log("Am I shorter than 163cm?");
+// if (climb.toLowerCase() === "no" || climb.toLowerCase() === "n") {
+//     correctAnswers++;
+//     console.log("correct");
+//     alert("correct");
+// } else {
+//     console.log("wrong, i have weak arms");
+//     alert("wrong, I have weak arms");
 
-if (height.toLowerCase() === "yes" || height.toLowerCase() === "y") {
-    correctAnswers++;
-    console.log("correct, i am 160 cm tall");
-    alert("correct, i am 160 cm tall");
-} else {
-    console.log("wrong, i am 160 cm tall");
-    alert("wrong, i am 160 cm tall");
+// }
 
-}
+// ////-----question 5-----////
+// var height = prompt("Am I shorter than 163cm?");
+// console.log("Am I shorter than 163cm?");
+
+// if (height.toLowerCase() === "yes" || height.toLowerCase() === "y") {
+//     correctAnswers++;
+//     console.log("correct, i am 160 cm tall");
+//     alert("correct, i am 160 cm tall");
+// } else {
+//     console.log("wrong, i am 160 cm tall");
+//     alert("wrong, i am 160 cm tall");
+
+// }
 
 ////-----question 6-----////
+function sixthQuestion(){
+
+
 var howManyCats = prompt("How mant cats I had in my life? you have 4 guesses");
 console.log("How mant cats I had in my life? you have 4 guesses");
 
@@ -93,7 +112,7 @@ for (var c = 1; c <= 3; c++) {
 
         howManyCats = prompt("too low, try again");
 
-    } else if (howManyCats == 6) { 
+    } else if (howManyCats == 6) {
         //compares a string with a number
         break;
     }
@@ -108,11 +127,14 @@ if (howManyCats != 6) {
     alert("you're correct");
 }
 
-
-
+}
+sixthQuestion();
 ////-----question 7-----////
 var flag = false;
 var things = ["napkin", "mask", "glove", "higeen", "key", "book", "cup"];
+function seventhQuestion(){
+
+
 var guessThings;
 console.log("can you guess one thing i always have in my car these days?");
 
@@ -142,7 +164,9 @@ for (var i = 5; i >= 0; i--) { //for number of guesses
     }
 
 }
-alert("your score is "+correctAnswers+"/7");
+}
+seventhQuestion();
+alert("your score is " + correctAnswers + "/7");
 
 
 document.write("<h3 class=\"doc-write parheading\">Important things in my car these days:</h3> <ul class=\"doc-write\">");
