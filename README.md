@@ -17,3 +17,9 @@ A guessing game about the developer of this game. you have to guess personal and
 * Track the score of the user
 * A list of Top Ten
 * changes on the styles
+ 
+ //
+ # This code is written and modified in 8/7/2020
+ by :
+ Navigator : Dina Al Said.
+ Driver : Marah Irshaid.
