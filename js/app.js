@@ -94,9 +94,7 @@ for (var c = 1; c <= 3; c++) {
         howManyCats = prompt("too low, try again");
 
     } else if (howManyCats == 6) { 
-        //compares a string with a number 
-
-
+        //compares a string with a number
         break;
     }
 }
@@ -144,7 +142,7 @@ for (var i = 5; i >= 0; i--) { //for number of guesses
     }
 
 }
-
+alert("your score is "+correctAnswers+"/7");
 
 
 document.write("<h3 class=\"doc-write parheading\">Important things in my car these days:</h3> <ul class=\"doc-write\">");
