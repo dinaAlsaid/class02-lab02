@@ -19,7 +19,7 @@ A guessing game about the developer of this game. you have to guess personal and
 * changes on the styles
  
  //
- # This code is written and modified in 8/7/2020
+ # This code is written and modified in 8/7/2020 and 9/7/2020
  by :
  Navigator : Dina Al Said.
  Driver : Marah Irshaid.
