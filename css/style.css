@@ -1,28 +1,47 @@
 body{
     font-family: 'Cinzel', serif;
     text-align: center;
+    color: #12442F;
+    background-color: #999E93;
+}
+header{
+    background-color: #7EC3C0 ;
+    height: fit-content;
+    color: #3F4928;
+    /* padding: 20px 10px; */
+}
+.stick-he{
+    position: sticky;
+    top: 0px;
+
+}
+nav{
+    padding: 10px;
+}
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+
 }
 p{
     margin: 5px;
 }
 
 .card {
-    border: 1px solid  black;
-    background-color: #e0dee4;
-    border-radius: 5px;
+    border: 1px solid  #7EC3C0;
+    background-color: #E2EBDA;
     width:55%;
     display: inline-block;
     padding: 20px;
-    box-shadow: 5px 0px 10px darkgrey ;
-    margin-top: 50px;
+    box-shadow: 5px 0px 10px  #3F8067;
+    margin: 10px 10px;
 }
 
 .parheading{
     display: inline-block;
-    background-color: #0000005c;
-    color: #5b0067;
+    background-color: #7EC3C0;
+    color: #E2EBDA;
     width: 100%;
-    border-radius: 5px;
     font-size: 1.5em;
     font-weight: bold;
     margin: 5px;
